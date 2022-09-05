@@ -3,10 +3,10 @@ body{
     margin: 0;    
     width:100vw;
     height: 100vh;
-    background-image: url(../images/fond1.jpg);
+    background-image: url(../images/fond.jpg);
     background-position: center;
-    
 }
+
 .panel{
     
     width:900px;
@@ -15,9 +15,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
+
 .intro{
     width:900px;
     height:70px;
@@ -28,6 +27,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #C7DDDF;
 }
+
 .question{
     margin-bottom: 20px;
     width: 900px;
@@ -35,8 +35,8 @@ body{
     font-size: x-large;
     text-align: center;
     padding-bottom: 8px;
-      
 }
+
 .options{
     display: flex;
     justify-content: space-around; 
@@ -44,6 +44,7 @@ body{
     padding: 5px;
     width:900px;  
 }
+
 .option{    
     padding: 10px;
     width: 200px;
@@ -52,9 +53,11 @@ body{
     background-color: lightgreen;
     border-radius: 15px;
 }
+
 .option:hover{
     background-color: yellow;
 }
+
 .navigation{
     width: 900px;
     padding: 5px;
@@ -62,20 +65,24 @@ body{
     justify-content: space-around;
     background-color:#c7dddf;
 }
-.validation,.suivant{
+
+.validation,.next{
     width:100px;
     height:100px;
     padding: 5px;
     font-size: larger;
     border-radius: 100px;
 }
+
 .validation{
     background-color: #41bc7e;
 }
-.suivant{
+
+.next{
     color: white;
     background-color: #763596; 
 }
+
 .result{
     margin-top:5px;
     height:40px;
@@ -83,12 +90,13 @@ body{
     text-align: center;
     font-size: 30px;
 }
+
 .containerResult {
     display:flex;
     flex-direction:column;
     justify-content: center;
-
 }
+
 .images{
     display : flex;
     justify-content : space-around;
@@ -97,6 +105,7 @@ body{
     padding: 5px;
     width: 900px;
 }
+
 .image{
     border : solid black 1px;
     width:100px;
