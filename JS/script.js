@@ -27,7 +27,6 @@ var timOp2 = ["../images/plantain.jpg", "../images/fougere.jpg"];
 var timOp3 = ["../images/belladone.jpg","../images/arum.png"];
 var timOp4 = ["../images/muguet.jpg",   "../images/ailOurs.jpg"];
 
-
 var imOp1 = document.getElementById("imOp1");
 var imOp2 = document.getElementById("imOp2");
 var imOp3 = document.getElementById("imOp3");
@@ -53,7 +52,6 @@ function iterate(id) {
     const op4 = document.getElementById("op4");
 
 
-    
 
     // AFFICHAGE
     question.innerText = questions[id].q;
@@ -119,8 +117,6 @@ function iterate(id) {
             result[0].style.color="red";
         }
     })
-    
-
 } 
 
 // SLIDER
@@ -137,12 +133,11 @@ if(start) {
 }
 
 
-const suivant=document.getElementsByClassName("suivant")[0];
+// SUIVANT
+const next=document.getElementsByClassName("next")[0];
 var id=0;
 
-
-// SUIVANT
-suivant.addEventListener("click",()=>{
+next.addEventListener("click",()=>{
     start=false;
     if(id<2){
         id++;
