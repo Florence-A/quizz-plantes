@@ -1,5 +1,6 @@
 # quizz-plantes
 Quizz fr about plants - javascript
+**Project in progress**
 
 Start
 ----------
